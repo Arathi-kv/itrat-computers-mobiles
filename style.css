@@ -118,3 +118,9 @@ footer a {
     font-size: 0.75rem;
   }
 }
+
+@media (max-width: 480px) {
+    .contact-info {
+        font-size: 1.2rem;
+    }
+}
