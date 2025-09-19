@@ -60,6 +60,16 @@ h1 {
   color: #000;
 }
 
+.contact-info a {
+  color: inherit;          /* keeps same text color */
+  text-decoration: none;   /* removes underline */
+}
+
+.contact-info a:hover {
+  text-decoration: underline;  /* underline only on hover (optional) */
+}
+
+
 /* Footer */
 footer {
   font-size: 0.9rem;
